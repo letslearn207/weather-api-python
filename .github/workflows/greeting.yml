@@ -6,4 +6,9 @@ jobs:
       steps:
         - name: greet user
           run: echo "hello world"
+  secondjob:
+       runs-on:  
+       steps:
+           - name: second job
+             run: echo "this is the second job"
   
