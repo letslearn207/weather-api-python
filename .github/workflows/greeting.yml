@@ -5,7 +5,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: greet user
-          run: echssssssso "hello world"
+          run: echo "hello world"
   secondjob:
        needs: akshatgreet
        runs-on:  ubuntu-24.04
