@@ -1,5 +1,5 @@
 name: Greeting Workflow
-on: push
+on: workflow_dispatch
 jobs:
   akshatgreet:
       runs-on: ubuntu-latest
