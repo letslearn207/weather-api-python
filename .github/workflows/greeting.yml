@@ -7,6 +7,7 @@ jobs:
         - name: greet user
           run: echo "hello world"
   secondjob:
+       needs: akshatgreet
        runs-on:  ubuntu-24.04
        steps:
            - name: second job
