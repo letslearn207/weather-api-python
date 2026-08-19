@@ -7,7 +7,7 @@ jobs:
         - name: greet user
           run: echo "hello world"
   secondjob:
-       runs-on:  
+       runs-on:  ubuntu-24.04
        steps:
            - name: second job
              run: echo "this is the second job"
