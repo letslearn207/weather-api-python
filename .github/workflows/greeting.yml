@@ -1,2 +1,9 @@
 name: Greeting Workflow
 on: push
+jobs:
+  akshatgreet:
+      runs-on: ubuntu-latest
+      steps:
+        - name: greet user
+          run: echo "hello world"
+  
