@@ -1,1 +1,2 @@
-
+name: Greeting Workflow
+on: push
