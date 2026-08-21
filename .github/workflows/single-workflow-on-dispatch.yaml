@@ -1,0 +1,17 @@
+name: single workflow
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  build:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-22.04
+    steps:
+      - name: build
+        run: echo "building...."
+  deploy:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Deployu
+        run: echo "deploying"
