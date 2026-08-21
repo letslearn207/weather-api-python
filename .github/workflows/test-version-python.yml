@@ -1,0 +1,11 @@
+name: Python version matrix
+on:
+  workflow_dispatch:
+jobs:
+  test-python:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: install python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.13' 
