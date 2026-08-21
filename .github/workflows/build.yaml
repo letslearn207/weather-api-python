@@ -1,0 +1,11 @@
+name: build workflow
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Build
+        run: echo "building the project"
+      - name: test
+        run: echo "testing"
+        
